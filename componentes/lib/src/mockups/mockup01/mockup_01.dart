@@ -1,5 +1,5 @@
-import 'package:componentes/src/mockups/button_mockup01.dart';
-import 'package:componentes/src/mockups/logo_mockup01.dart';
+import 'package:componentes/src/mockups/mockup01/button_mockup01.dart';
+import 'package:componentes/src/mockups/mockup01/logo_mockup01.dart';
 import 'package:flutter/material.dart';
 
 class Mockup01 extends StatelessWidget {

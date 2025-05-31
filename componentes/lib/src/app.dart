@@ -1,4 +1,5 @@
-import 'package:componentes/src/mockups/mockup_01.dart';
+import 'package:componentes/src/exercicio1/exercicio01.dart';
+import 'package:componentes/src/mockups/mockup01/mockup_01.dart';
 import 'package:componentes/src/mockups/tinder/mockup_tinder.dart';
 import 'package:flutter/material.dart';
 
@@ -31,6 +32,15 @@ class App extends StatelessWidget {
                 );
               },
               child: Text('Mockup Tinder'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const Exercicio01()),
+                );
+              },
+              child: Text('Exercício 01'),
             ),
           ],
         ),
